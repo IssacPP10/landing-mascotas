@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    <%= title %>
+  </title>
+  <!-- INCLUDE HEAD -->
+  <% include partials/head %>
+</head>
+
+<body>
+  <!-- INCLUDE NAVBAR -->
+  <% include partials/navigation %>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/banner1.png" alt="Los Angeles" class="img-fluid">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/banner2.png" alt="Chicago" class="img-fluid">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/banner3.png" alt="New York" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+
+    <div class="container">
+      <section class="services">
+        <!-- heading -->
+        <div class="s-heading">
+          <h1 class="mt-4">Servicios que te ofrece D.K Shop</h1>
+          <p>La tienda en linea D.K shop te ofrece multiples servicios los cuales constan de compras, envios seguros y adopción de mascotas, cualquier duda acerca de nuestra tienda puede contactarnos
+            a traves de la sección de contactanos la cual pude usar para preguntar, o aclarar cualquier duda que usted tega. Sin compromisos y a un costo accesible.</p>
+        </div>
+        <!--services-box-container------------------->
+        <div class="s-box-container">
+          <!--service-box-1---------------->
+          <div class="s-box animated flipInY">
+            <!--top-bar-------->
+            <div class="bar"></div>
+            <!--img---------->
+            <img alt="1" src="/img/1.png" />
+            <!--servies-name---------->
+            <h1>Adopciones</h1>
+            <!--details------>
+            <p>Aquí podra ver las mascotas que aun tenemos en adopción sin ningún compromiso. Echele un vistazo</p>
+            <!--btn---------->
+            <a class="s-btn" href="#">More</a>
+          </div>
+          <!--service-box-2---------------->
+          <div class="s-box animated flipInY">
+            <!--top-bar-------->
+            <div class="bar"></div>
+            <!--img---------->
+            <img alt="2" src="/img/2.png" />
+            <!--servies-name---------->
+            <h1>Compras</h1>
+            <!--details------>
+            <p>Todas las compras de mascotas ahora podran verlas a traves de nuestro sitio oficial.</p>
+            <!--btn---------->
+            <a class="s-btn" href="#">More</a>
+          </div>
+          <!--service-box-3---------------->
+          <div class="s-box animated flipInY">
+            <!--top-bar-------->
+            <div class="bar"></div>
+            <!--img---------->
+            <img alt="3" src="/img/3.png" />
+            <!--servies-name---------->
+            <h1>Envios Seguros</h1>
+            <!--details------>
+            <p>Los envios son totalmente seguros, no se preocupe que los problemas nosotros se los resolvemos.</p>
+            <!--btn---------->
+            <a class="s-btn" href="#">More</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container mb-4">
+      <div class="wrapper">
+        <h1 class="text-center">D.K Shop te muestra la variedad de mascotas a elegir! </h1>
+        <!-- filter Items -->
+        <nav>
+          <div class="items">
+            <span class="item active" data-name="all">All</span>
+            <span class="item" data-name="Perros">Perros</span>
+            <span class="item" data-name="Gatos">Gatos</span>
+            <span class="item" data-name="Pajaros">Aves</span>
+            <span class="item" data-name="Hamsters">Hamsters</span>
+          </div>
+        </nav>
+        <!-- filter Images -->
+        <div class="gallery">
+          <div class="image" data-name="Perros"><span><img src="/img/perro1.png" alt=""></span></div> 
+          <div class="image" data-name="Gatos"><span><img src="/img/gato1.jpg" alt=""></span></div> 
+          <div class="image" data-name="Pajaros"><span><img src="/img/ave1.jpg" alt=""></span></div>
+          <div class="image" data-name="Hamsters"><span><img src="/img/hamster1.jpg" alt=""></span></div>
+          <div class="image" data-name="Perros"><span><img src="/img/perro2.png" alt=""></span></div> 
+          <div class="image" data-name="Gatos"><span><img src="/img/gato2.jpg" alt=""></span></div>
+          <div class="image" data-name="Pajaros"><span><img src="/img/ave2.jpg" alt=""></span></div>
+          <div class="image" data-name="Hamsters"><span><img src="/img/hamster2.jpg" alt=""></span></div>
+          <div class="image" data-name="Perros"><span><img src="/img/perro3.jpg" alt=""></span></div>
+          <div class="image" data-name="Gatos"><span><img src="/img/gato3.jpg" alt=""></span></div>
+          <div class="image" data-name="Pajaros"><span><img src="/img/ave3.jpg" alt=""></span></div>
+          <div class="image" data-name="Hamsters"><span><img src="/img/hamster3.jpg" alt=""></span></div>
+          <div class="image" data-name="Perros"><span><img src="/img/perro4.jpg" alt=""></span></div>
+          <div class="image" data-name="Gatos"><span><img src="/img/gato4.png" alt=""></span></div>
+          <div class="image" data-name="Pajaros"><span><img src="/img/ave4.png" alt=""></span></div>
+          <div class="image" data-name="Hamsters"><span><img src="/img/hamster4.jpg" alt=""></span></div>
+          <div class="image" data-name="Perros"><span><img src="/img/perro5.jpg" alt=""></span></div>
+          <div class="image" data-name="Gatos"><span><img src="/img/gato5.png" alt=""></span></div>
+          <div class="image" data-name="Pajaros"><span><img src="/img/ave5.png" alt=""></span></div>
+          <div class="image" data-name="Hamsters"><span><img src="/img/hamster5.jpg" alt=""></span></div>
+          <div class="image" data-name="Perros"><span><img src="/img/perro6.jpg" alt=""></span></div>
+          <div class="image" data-name="Gatos"><span><img src="/img/gato6.png" alt=""></span></div>
+          <div class="image" data-name="Pajaros"><span><img src="/img/ave6.png" alt=""></span></div>
+          <div class="image" data-name="Hamsters"><span><img src="/img/hamster6.jpg" alt=""></span></div>
+        </div>
+      </div>
+      <!-- fullscreen img preview box -->
+      <div class="preview-box">
+        <div class="details">
+          <span class="title">Categoria de Imagen: <p></p></span>
+          <span class="icon fas fa-times"></span>
+        </div>
+        <div class="image-box"><img src="" alt=""></div>
+      </div>
+      <div class="shadow"></div>
+      
+    </div>
+
+
+
+    <!-- INCLUDE FOOTER -->
+    <% include partials/footer %>
+
+</body>
+
+</html>
